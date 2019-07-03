@@ -38,7 +38,7 @@ const Login = (props) => {
     });
    }
   };
-  const { name, email, password, password2 } = user;
+  const {  email, password } = user;
   return (
     <div className='form-container'>
       <h1>
